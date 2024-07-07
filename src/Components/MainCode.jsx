@@ -1,7 +1,7 @@
     import React, { useState, useRef, useEffect } from 'react';
-    import { quotesArray, random, allowedKeys } from '/Users/larasati/Documents/Fruity Web/Project/MonkeyType/Typing-Project/src/Components/Helper.js';
-    import '/Users/larasati/Documents/Fruity Web/Project/MonkeyType/Typing-Project/src/App.css';
-    import sound from '/Users/larasati/Documents/Fruity Web/Project/MonkeyType/Typing-Project/src/Sound/Wrong-Sound.mp3';
+    import { quotesArray, random, allowedKeys } from './Helper.js';
+    import '../App.css';
+    import sound from '../Sound/Wrong-Sound.mp3';
     
     let interval = null;
     
