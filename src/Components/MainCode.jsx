@@ -17,7 +17,6 @@
       const [quote, setQuote] = useState({});
       const [input, setInput] = useState('');
       const [errorIndex, setErrorIndex] = useState(0); // New state for error count
-      const [ lastScore, setLastScore ] = useState('0')
       const [audio] = useState(new Audio(sound));
 
       const [cpm, setCpm] = useState(0);
