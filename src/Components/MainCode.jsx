@@ -151,19 +151,27 @@
               </div>
             </>
           ) : started ? (
+            <>
               <div className="Main">
                 <div className='time-1'> Time: {duration} </div>
+              </div>
+              <div className='Main2'>
                 <div className="textReferance" tabIndex="0" ref={inputRef}>
                   {input}
                 </div>
               </div>
+            </>
           ) : (
-            <div className="Main">
-              <div className='time-1'> Time: {duration} </div>
-              <div className="textReferance" tabIndex="0" ref={inputRef}>
-                {input}
+            <>
+              <div className="Main">
+                <div className='time-1'> Time: {duration} </div>
               </div>
-            </div>
+              <div className='Main2'>
+                <div className="textReferance" tabIndex="0" ref={inputRef}>
+                  {input}
+                </div>
+              </div>
+            </>
           )}
           <div className="Output">
             <div className="InputReferance" ref={outputRef}/>
