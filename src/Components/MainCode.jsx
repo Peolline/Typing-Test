@@ -149,10 +149,6 @@
                 <div className='accuracy'> Accuracy<br />{accuracy}% </div>
                 <div className='error'> Mistakes<br />{errorIndex} </div>
               </div>
-              <div className='MainQuote'>
-                <div className='Quote'>"{quote.quote}" <br/><br/> - {quote.author}</div>
-              
-              </div>
             </>
           ) : started ? (
               <div className="Main">
