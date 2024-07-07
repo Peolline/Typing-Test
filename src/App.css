@@ -14,33 +14,33 @@ html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center align items horizontally */
+    align-items: center;
     height: 30vh;
 }
 
-.Output{
+.Output {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center align items horizontally */
+    align-items: center;
     height: 30vh;
 }
 
 .Title {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10rem; /* Adjust font size */
-    margin: 0; /* Adjust margin: top/bottom, 0 for left/right */
-    color: rgb(236, 161, 10); /* Text color */
-    text-align: center; /* Center align text */
-    text-transform: uppercase; /* Uppercase text */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Text shadow */
+    font-size: 10rem;
+    margin-top: 50px;
+    color: rgb(236, 161, 10);
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .SubTitle {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem; /* Adjust font size */
-    color: rgb(248, 243, 237); /* Text color */
-    text-align: center; /* Center align text */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Text shadow */
+    font-size: 1rem;
+    color: rgb(248, 243, 237);
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     margin: 0;
     margin-bottom: 5px;
 }
@@ -54,76 +54,71 @@ html, body {
     width: 100px;
     height: 40px;
     text-align: center;
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
-.Bold{
-    color: rgb(236, 161, 10); /* Example text color */
+.Bold {
+    color: rgb(236, 161, 10);
     font-weight: bold;
     font-size: 20px;
 }
 
-
 .textReferance {
-    width: 80%; /* Adjust width as needed */
-    max-width: 620px; /* Limit maximum width */
+    width: 80%;
+    max-width: 620px;
     border: 3px solid rgb(236, 161, 10);
     border-radius: 10px;
-    padding: 0; /* Add padding for spacing */
-    color: rgb(248, 243, 237); /* Example text color */
-    font-size: 5rem; /* Example font size */
-    text-align: left; /* Align text to the left */
-    overflow: hidden; /* Hide overflowing text */
+    padding: 10px;
+    color: rgb(248, 243, 237);
+    font-size: 5vw; /* Responsive font size based on viewport width */
+    text-align: left;
+    overflow: hidden; /* Hide text that overflows the container */
     white-space: nowrap; /* Prevent text from wrapping */
     text-overflow: ellipsis; /* Display ellipsis (...) for overflow */
-    margin-bottom: 20px; /* Space between .textReferance and .InputReferance */
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
-
 
 
 
 .InputReferance {
-    border: 5px solid rgb(248, 243, 237); /* Example border */
+    border: 5px solid rgb(248, 243, 237);
     border-radius: 15px;
-    height: 200px; /* Example height */
-    width: 80%; /* Adjust width as needed */
-    max-width: 600px; /* Limit maximum width */
-    padding: 20px; /* Add padding for spacing */
-    color: rgb(236, 161, 10); /* Example text color */
-    font-size: 20px; /* Example font size */
-    text-align: left; /* Align text to the left */
-    overflow: hidden; /* Hide overflowing text */
-    word-wrap: break-word; /* Break words that exceed container width */
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    color: rgb(236, 161, 10);
+    font-size: 20px;
+    text-align: left;
+    overflow: hidden;
+    word-wrap: break-word;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    resize: both; /* Make the container resizable */
 }
-
 
 .text-danger {
     color: red;
 }
 
-
-/*
-======================================================================================================================================
-*/
-
-.ending-screen{
+.ending-screen {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: 50vh;
 }
-.button{
+
+.button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center align items horizontally */
+    align-items: center;
     height: 20vh;
 }
-.ButtonReload{
+
+.ButtonReload {
     border: 3px solid rgb(236, 161, 10);
     border-radius: 50px;
     font-size: 20px;
@@ -137,15 +132,12 @@ html, body {
     transition: ease-in 0.3s;
 }
 
-.ButtonReload:hover{
+.ButtonReload:hover {
     background-color: wheat;
     color: black;
 }
 
-.cpm,
-.wpm,
-.accuracy,
-.error {
+.cpm, .wpm, .accuracy, .error {
     border: 5px solid rgb(236, 161, 10);
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -155,22 +147,22 @@ html, body {
     width: 250px;
     margin: 10px;
     text-align: center;
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .MainQuote {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center align items horizontally */
+    align-items: center;
     height: 15vh;
 }
 
-.Quote{
+.Quote {
     display: flex;
-    flex-direction: column; /* Adjust as needed */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
@@ -179,5 +171,61 @@ html, body {
     text-align: center;
 }
 
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .Title {
+        font-size: 8rem;
+    }
 
+    .Quote {
+        width: 80%;
+    }
+}
 
+@media (max-width: 768px) {
+    .Title {
+        font-size: 6rem;
+    }
+
+    .SubTitle {
+        font-size: 0.8rem;
+    }
+
+    .textReferance {
+        font-size: 4rem;
+    }
+
+    .InputReferance {
+        font-size: 18px;
+    }
+
+    .cpm, .wpm, .accuracy, .error {
+        font-size: 40px;
+        height: 250px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Title {
+        font-size: 4rem;
+    }
+
+    .SubTitle {
+        font-size: 0.6rem;
+    }
+
+    .textReferance {
+        font-size: 3rem;
+    }
+
+    .InputReferance {
+        font-size: 16px;
+    }
+
+    .cpm, .wpm, .accuracy, .error {
+        font-size: 30px;
+        height: 200px;
+        width: 150px;
+    }
+}
