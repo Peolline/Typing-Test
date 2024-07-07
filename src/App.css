@@ -1,0 +1,183 @@
+/* CSS Reset */
+html, body, #root, .App {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+html, body {
+    background-color: rgb(27, 24, 21);
+}
+
+.Main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    height: 30vh;
+}
+
+.Output{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    height: 30vh;
+}
+
+.Title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10rem; /* Adjust font size */
+    margin: 0; /* Adjust margin: top/bottom, 0 for left/right */
+    color: rgb(236, 161, 10); /* Text color */
+    text-align: center; /* Center align text */
+    text-transform: uppercase; /* Uppercase text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Text shadow */
+}
+
+.SubTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem; /* Adjust font size */
+    color: rgb(248, 243, 237); /* Text color */
+    text-align: center; /* Center align text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Text shadow */
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.time-1 {
+    margin: 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(236, 161, 10);
+    color: aliceblue;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+
+.Bold{
+    color: rgb(236, 161, 10); /* Example text color */
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.textReferance {
+    width: 80%; /* Adjust width as needed */
+    max-width: 620px; /* Limit maximum width */
+    border: 3px solid rgb(236, 161, 10);
+    border-radius: 10px;
+    padding: 0; /* Add padding for spacing */
+    color: rgb(248, 243, 237); /* Example text color */
+    font-size: 5rem; /* Example font size */
+    text-align: left; /* Align text to the left */
+    overflow: hidden; /* Hide overflowing text */
+    white-space: nowrap; /* Prevent text from wrapping */
+    text-overflow: ellipsis; /* Display ellipsis (...) for overflow */
+    margin-bottom: 20px; /* Space between .textReferance and .InputReferance */
+}
+
+
+
+
+.InputReferance {
+    border: 5px solid rgb(248, 243, 237); /* Example border */
+    border-radius: 15px;
+    height: 200px; /* Example height */
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Limit maximum width */
+    padding: 20px; /* Add padding for spacing */
+    color: rgb(236, 161, 10); /* Example text color */
+    font-size: 20px; /* Example font size */
+    text-align: left; /* Align text to the left */
+    overflow: hidden; /* Hide overflowing text */
+    word-wrap: break-word; /* Break words that exceed container width */
+}
+
+
+.text-danger {
+    color: red;
+}
+
+
+/*
+======================================================================================================================================
+*/
+
+.ending-screen{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50vh;
+}
+.button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    height: 20vh;
+}
+.ButtonReload{
+    border: 3px solid rgb(236, 161, 10);
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(27, 24, 21);
+    color: rgb(236, 161, 10);
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    cursor: pointer;
+    transition: ease-in 0.3s;
+}
+
+.ButtonReload:hover{
+    background-color: wheat;
+    color: black;
+}
+
+.cpm,
+.wpm,
+.accuracy,
+.error {
+    border: 5px solid rgb(236, 161, 10);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    padding: 0;
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.MainQuote {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    height: 15vh;
+}
+
+.Quote{
+    display: flex;
+    flex-direction: column; /* Adjust as needed */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 200px;
+    width: 900px;
+    text-align: center;
+}
+
+
+
